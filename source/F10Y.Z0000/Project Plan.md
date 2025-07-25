@@ -20,4 +20,6 @@ Instance Variety Descriptor
 
 netstandard2.1: target framework moniker
 
-F10Y.T0003 only: dependencies descriptor
+F10Y.T0003, F10Y.L0000 only: dependencies descriptor
+	Note: F10Y.L0000 is included for ease of creating data values like Versions and string arrays.
+	You might consider creating a Z### sub-library for values for which that dependency is not desirable.

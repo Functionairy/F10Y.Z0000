@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "@vocab": "http://schema.nuget.org/schema#",
+    "@base": "https://api.nuget.org/v3/registration5-semver1/"
+  },
+  "totalHits": 1,
+  "data": [
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/f10y.l0000/index.json",
+      "@type": "Package",
+      "registration": "https://api.nuget.org/v3/registration5-semver1/f10y.l0000/index.json",
+      "id": "F10Y.L0000",
+      "version": "1.0.0",
+      "description": ".NET Standard 2.1 foundation library.",
+      "summary": "",
+      "title": "F10Y.L0000",
+      "licenseUrl": "https://www.nuget.org/packages/F10Y.L0000/1.0.0/license",
+      "tags": [],
+      "authors": [
+        "DCoats"
+      ],
+      "owners": [
+        "Functionairy"
+      ],
+      "totalDownloads": 306,
+      "verified": false,
+      "packageTypes": [
+        {
+          "name": "Dependency"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 306,
+          "@id": "https://api.nuget.org/v3/registration5-semver1/f10y.l0000/1.0.0.json"
+        }
+      ],
+      "vulnerabilities": []
+    }
+  ]
+}

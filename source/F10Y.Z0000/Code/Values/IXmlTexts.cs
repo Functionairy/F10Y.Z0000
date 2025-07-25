@@ -5,6 +5,9 @@ using F10Y.T0003;
 
 namespace F10Y.Z0000
 {
+    /// <summary>
+    /// Example XML texts.
+    /// </summary>
     [ValuesMarker]
     public partial interface IXmlTexts
     {

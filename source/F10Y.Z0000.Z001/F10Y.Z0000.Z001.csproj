@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup Label="Main">
     <TargetFramework>netstandard2.1</TargetFramework>
     <NoWarn>1573;1587;1591;IDE0130</NoWarn>
@@ -9,15 +9,20 @@
     <Authors>DCoats</Authors>
     <Company>Functionairy</Company>
     <Copyright>Copyright (c) Functionairy 2025</Copyright>
-    <Description>Example values.</Description>
+    <Description>Files-convention example files sub-library for the F10Y.Z0000 example values library.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <RepositoryUrl>https://github.com/Functionairy/F10Y.Z0000.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\F10Y.L0000\source\F10Y.L0000\F10Y.L0000.csproj" />
-    <ProjectReference Include="..\..\..\F10Y.T0003\source\F10Y.T0003\F10Y.T0003.csproj" />
-    <ProjectReference Include="..\F10Y.Z0000.Z000\F10Y.Z0000.Z000.csproj" />
-    <ProjectReference Include="..\F10Y.Z0000.Z001\F10Y.Z0000.Z001.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.L0001\source\F10Y.L0001.L001\F10Y.L0001.L001.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Files\F10Y.Z0000.Z001\Example.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Files\F10Y.Z0000.Z001\Example.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
